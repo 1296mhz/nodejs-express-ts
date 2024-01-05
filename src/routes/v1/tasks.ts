@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { body, validationResult } from 'express-validator';
-import { Task } from '../../models/task';
+import { Task } from '../../models/nobody/Task';
 
 const router = Router();
 let tasks: Task[] = [];

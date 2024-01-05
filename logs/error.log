@@ -2,3 +2,5 @@
 {"level":"error","message":"connection to mongo failed MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017","service":"user-service"}
 {"level":"error","message":"connection to mongo failed MongoServerError: Authentication failed.","service":"user-service"}
 {"level":"error","message":"connection to mongo failed MongoServerError: Authentication failed.","service":"user-service"}
+{"code":18,"codeName":"AuthenticationFailed","connectionGeneration":0,"level":"error","ok":0,"service":"server-service"}
+{"level":"error","message":"connection to mongo failed MongoServerError: Authentication failed.","service":"server-service"}
