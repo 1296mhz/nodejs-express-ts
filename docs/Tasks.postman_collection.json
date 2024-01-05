@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "b8046500-840a-4d9b-ba8f-f0db270c4ac5",
+		"name": "Tasks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6032618"
+	},
+	"item": [
+		{
+			"name": "Все задачи",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"login\": \"cshlovjah\",\n    \"email\": \"cshlovjah@gmail.com\",\n    \"password\": \"123456\",\n    \"confirmPassword\": \"123456\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/v1/tasks",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"tasks"
+					]
+				},
+				"description": "все задачи"
+			},
+			"response": []
+		},
+		{
+			"name": "Новая задача",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Тестовая задача\",\n    \"description\": \"Описание тестовой задачи\",\n    \"completed\":false\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/v1/tasks",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"tasks"
+					]
+				},
+				"description": "новая задача"
+			},
+			"response": []
+		},
+		{
+			"name": "Задача по id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/v1/tasks/{{task_id}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"tasks",
+						"{{task_id}}"
+					]
+				},
+				"description": "задача по id"
+			},
+			"response": []
+		},
+		{
+			"name": "Обновление задачи",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"title\": \"Тестовая задача\",\n    \"description\": \"Описание тестовой задачи\",\n    \"completed\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/v1/tasks/{{task_id}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"tasks",
+						"{{task_id}}"
+					]
+				},
+				"description": "Сделать состояние задачи сделано"
+			},
+			"response": []
+		}
+	]
+}
