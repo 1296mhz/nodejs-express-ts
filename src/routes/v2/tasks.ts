@@ -3,7 +3,6 @@ import {body, validationResult} from 'express-validator';
 import {ITask} from '../../models/mongoose/Task';
 import TaskModel from '../../models/mongoose/TaskModel'
 const router = Router();
-let tasks: ITask[] = [];
 
 const taskValidationRules = [
   body('title').notEmpty().withMessage('Title is required'),
@@ -14,7 +13,7 @@ const taskValidationRules = [
 // Add your CRUD API implementation here
 
 router.get('/', async (req: Request, res: Response) => {
-  const tasks = await TaskModel.find();
+  const tasks: ITask[] = await TaskModel.find();
   res.json(tasks);
 });
 
