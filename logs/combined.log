@@ -1,0 +1,30 @@
+{"level":"info","message":"trying to establish a connection to mongo","service":"user-service"}
+{"level":"info","message":"[server]: Server is running at http://localhost:3000","service":"user-service"}
+{"level":"info","message":"mongo db connection closed","service":"user-service"}
+{"level":"info","message":"mongo db connection closed","service":"user-service"}
+{"level":"error","message":"connection to mongo failed MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017","service":"user-service"}
+{"level":"error","message":"connection to mongo failed MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017","service":"user-service"}
+{"level":"info","message":"trying to establish a connection to mongo","service":"user-service"}
+{"level":"info","message":"[server]: Server is running at http://localhost:3000","service":"user-service"}
+{"level":"info","message":"mongo db connection closed","service":"user-service"}
+{"level":"info","message":"mongo db connection closed","service":"user-service"}
+{"level":"error","message":"connection to mongo failed MongoServerError: Authentication failed.","service":"user-service"}
+{"level":"error","message":"connection to mongo failed MongoServerError: Authentication failed.","service":"user-service"}
+{"level":"info","message":"trying to establish a connection to mongo","service":"user-service"}
+{"level":"info","message":"trying to establish a connection to mongo","service":"user-service"}
+{"level":"info","message":"trying to establish a connection to mongo","service":"server-service"}
+{"level":"info","message":"trying to establish a connection to mongo","service":"server-service"}
+{"level":"info","message":"[server]: Server is running at http://localhost:3000","service":"server-service"}
+{"level":"info","message":"mongo connection established successfully","service":"server-service"}
+{"level":"info","message":"mongo connection established successfully","service":"server-service"}
+{"level":"info","message":"trying to establish a connection to mongo","service":"server-service"}
+{"level":"info","message":"[server]: Server is running at http://localhost:3000","service":"server-service"}
+{"level":"info","message":"mongo connection established successfully","service":"server-service"}
+{"level":"info","message":"mongo connection established successfully","service":"server-service"}
+{"level":"info","message":"trying to establish a connection to mongo","service":"server-service"}
+{"level":"info","message":"[server]: Server is running at http://localhost:3000","service":"server-service"}
+{"level":"info","message":"mongo connection established successfully","service":"server-service"}
+{"level":"info","message":"mongo connection established successfully","service":"server-service"}
+{"level":"info","message":"trying to establish a connection to mongo","service":"server-service"}
+{"level":"info","message":"mongo connection established successfully","service":"server-service"}
+{"level":"info","message":"[server]: Server is running at http://localhost:3000","service":"server-service"}
